@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo de Média</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="container">
+
+        <h1>Calculo de Média</h1>
+        
+        <div class="input">
+            <input type="number" id="m-n1"> +
+            <input type="number" id="m-n2">
+            <input class="button"type="button" value="Média" onclick="media()">
+        </div>
+        
+        <div id="media"></div>
+    </div><!--container-->
+    
+    <script>
+        function media() {
+            var m_n1 = window.document.getElementById('m-n1')
+            var m_n2 = window.document.getElementById('m-n2')
+            var res = window.document.getElementById('media')
+            var n1 = Number(m_n1.value)
+            var n2 = Number(m_n2.value)
+            var m = (n1 + n2) / 2
+            res.innerHTML=`A média entre ${n1} e ${n2} é <strong>${m}<strong>`
+        }
+    </script>
+</body>
+</html>

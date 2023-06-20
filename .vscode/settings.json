@@ -1,0 +1,14 @@
+{
+    "cSpell.words": [
+        "prazer"
+    ],
+    "editor.experimental.asyncTokenization": false,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.defaultColorDecorators": true,
+    "window.autoDetectColorScheme": false,
+    "terminal.integrated.tabs.defaultColor": null,
+    "color-highlight.languages": [
+        "*"
+    ],
+    "workbench.productIconTheme": "fluent-icons"
+}
